@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
-import { Card, SectionTitle, Alert, Button, Grid2 } from '@/components/common/UI';
-import { QuestionCard } from '@/components/common/QuestionCard';
+import { Card, SectionTitle, Button } from '@/components/common/UI';
 import { QuestionPage } from './QuestionPage';
 import { useAuthStore } from '@/store/authStore';
 import { useUIStore } from '@/store/uiStore';
-import { useQuestionStatuses } from '@/hooks/useData';
 import { authApi } from '@/api/auth';
 import { AIML_QUESTIONS, CLOUDDEVOPS_QUESTIONS } from '@/data/aiml';
 import toast from 'react-hot-toast';

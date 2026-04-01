@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import { useDashboard, useHeatmap, useQuestionStatuses } from '@/hooks/useData';
 import { useUIStore } from '@/store/uiStore';
 import { useAuthStore } from '@/store/authStore';
-import { StatBox, Card, SectionTitle, ProgressBar, Grid4, Grid2, EmptyState, Spinner, Badge } from '@/components/common/UI';
+import { StatBox, Card, SectionTitle, Grid4, Grid2, EmptyState, Spinner, Badge } from '@/components/common/UI';
 import { MODULE_COLORS, MODULE_LABELS } from '@/data/questions';
 
 const minsToHours = (m: number) => (m / 60).toFixed(1);

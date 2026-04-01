@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useRevisionDue, useQuestionStatuses, useUpdateQuestionStatus } from '@/hooks/useData';
+import { useRevisionDue, useQuestionStatuses } from '@/hooks/useData';
 import { ALL_QUESTIONS, COMPANY_QUESTIONS, MODULE_COLORS } from '@/data/questions';
 import { Card, SectionTitle, EmptyState, Alert, Button, Badge, Grid2, StatBox } from '@/components/common/UI';
 import { QuestionCard } from '@/components/common/QuestionCard';

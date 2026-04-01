@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { STUDY_PHASES, MODULE_ROADMAPS, DAILY_PLANS } from '@/data/studyPlan';
-import { Card, SectionTitle, Alert, Badge, Button } from '@/components/common/UI';
+import { Card, SectionTitle, Alert, Badge } from '@/components/common/UI';
 
 const TYPE_COLORS = {
   theory:   { bg: 'rgba(99,102,241,.12)',  border: '#6366f1', icon: '📖', label: 'Theory',   text: '#818cf8' },

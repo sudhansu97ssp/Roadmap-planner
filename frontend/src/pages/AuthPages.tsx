@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAuthStore } from '@/store/authStore';
-import { Button, Spinner } from '@/components/common/UI';
+import { Spinner } from '@/components/common/UI';
 import type { AxiosError } from 'axios';
 
 interface ApiErrResponse { message?: string; }
